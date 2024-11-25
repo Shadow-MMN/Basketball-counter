@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.heading{
+    width: 149px;
+    height: 36px;
+    top: 68px;
+    left: 85px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35.89px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.black-background{
+    width: 155px;
+    height: 120px;
+    top: 125px;
+    left: 82px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    background: #080001;
+
+}
+.content-num{
+    width: 117px;
+    height: 120px;
+    top: 125px;
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 126.67px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #F94F6D;
+}
+.buttons-below{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.buttons-below button{
+    width: 45px;
+    height: 45px;
+    top: 271px;
+    left: 136px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    background: #9AABD8;
+    border: 2px solid #9AABD8;
+}
